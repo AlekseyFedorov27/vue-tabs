@@ -8,7 +8,7 @@ module.exports = {
   },
 
   outputDir: "dist",
-  publicPath: "",
+  publicPath: "/",
   assetsDir: "",
   productionSourceMap: false,
   filenameHashing: true,
