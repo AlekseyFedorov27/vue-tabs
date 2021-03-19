@@ -13,7 +13,6 @@
 <script>
 import Tabs from "@/components/Tabs";
 import { mapGetters, mapActions } from "vuex";
-
 export default {
   name: "Home",
   components: { Tabs },
