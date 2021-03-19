@@ -1,0 +1,32 @@
+.v-tooltip{
+    position: fixed;
+    z-index: 90;
+    background-color: #000;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+.top::after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    z-index: 108;
+    height: 1px;
+    width: auto;
+    border: 8px solid transparent;
+    border-top: 10px solid #000;
+    bottom: -18px;
+}
+.bottom::after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: -15px;
+    z-index: 108;
+    height: 1px;
+    width: 1px;
+    border: 7px solid transparent;
+    border-bottom: 10px solid #000;
+}
+
